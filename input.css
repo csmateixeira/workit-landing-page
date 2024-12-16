@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Fraunces";
+    src: url("./assets/fonts/fraunces/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf");
+}
+
+@font-face {
+    font-family: "Manrope";
+    src: url("./assets/fonts/manrope/Manrope-VariableFont_wght.ttf");
+}
+
+.main-container {
+    @apply flex flex-col bg-purple-100 items-center justify-center text-purple-900;
+    clip-path: ellipse(220% 80% at 50% 20%);
+}
+
+.header-container {
+    @apply relative bg-purple-100 text-white;
+    clip-path: ellipse(120% 50% at 50% 20%);
+}
+
+.sub-header-container {
+    @apply relative flex flex-col bg-purple-900 pb-56;
+}
+
+.apply-link {
+    @apply font-manrope font-bold text-preset4;
+}
+
+.green-underline {
+    @apply border-b-[3px] border-green;
+}
+
+.nav-container {
+    @apply flex flex-row justify-between px-5 pt-8;
+}
+
+.hero-container {
+    @apply flex flex-col space-y-10 items-center justify-center px-5 pt-14 pb-36;
+}
+
+.hero-h1 {
+    @apply font-fraunces font-semibold text-sm-preset1 text-center;
+}
+
+.green-button {
+    @apply px-8 py-3 bg-green text-purple-900;
+}
+
+.illustration {
+    @apply absolute top-96 h-[184px];
+}
+
+.article-container {
+    @apply flex flex-col bg-purple-100 items-center justify-center h-full w-screen space-y-8 px-5 pb-16 -mt-16;
+}
+
+.section-text-container {
+    @apply flex flex-col space-y-6 items-center justify-center text-center;
+}
+
+.section-h1 {
+    @apply flex items-center justify-center rounded-full font-semibold font-fraunces text-sm-preset5 border border-purple-900 w-12 h-12;
+}
+
+.section-h2 {
+    @apply font-semibold text-sm-preset3 font-fraunces;
+}
+
+.section-h3 {
+    @apply font-manrope text-sm-preset4;
+}
+
+.aside-section-container {
+    @apply flex flex-col space-y-2 px-5 pt-28;
+}
+
+.aside-subsection-container {
+    @apply -space-y-14 items-center justify-center;
+}
+
+.aside-text-container {
+    @apply flex flex-col space-y-8 px-8 py-8 bg-purple-900 text-center justify-center;
+}
+
+.aside-h1 {
+    @apply font-fraunces font-semibold text-sm-preset2;
+}
+
+.aside-text {
+    @apply font-manrope text-sm-preset4;
+}
+
+.aside-button-container {
+    @apply flex flex-row justify-around;
+}
+
+.footer {
+    @apply flex flex-col space-y-2 px-20 py-20;
+}
+
+.footer-container {
+    @apply flex flex-col space-y-14 items-center;
+}
+
+.social-media {
+    @apply flex flex-row space-x-7 justify-between;
+}
