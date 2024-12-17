@@ -95,7 +95,7 @@
 }
 
 .aside-section-container {
-    @apply flex flex-col space-y-2 px-5 pt-28 md:px-11;
+    @apply flex flex-col space-y-2 px-5 pt-28 md:px-11 md:pt-52;
 }
 
 .aside-subsection-container {
