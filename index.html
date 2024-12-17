@@ -14,15 +14,20 @@
     <header class="header-container">
       <div class="sub-header-container">
 
-        <nav class="nav-container">
+        <nav class="nav-container md:px-11">
           <img src="./assets/images/logo-light.svg" alt="logo">
           <button class="apply-link green-underline">Apply for access</button>
         </nav>
 
-        <div class="hero-container">
-          <h1 class="hero-h1">Data <span class="green-underline">tailored</span> to your needs.</h1>
-          <button class="green-button">Learn more</button>
+        <div class="hero">
+          <img src="./assets/images/bg-pattern-1.svg" class="sm-hidden -left-56 top-0" alt="">
+          <div class="hero-container md:w-2/3">
+            <h1 class="hero-h1">Data <span class="green-underline">tailored</span> to your needs.</h1>
+            <button class="green-button">Learn more</button>
+          </div>
+          <img src="./assets/images/bg-pattern-2.svg" class="sm-hidden -right-24 top-52" alt="">
         </div>
+
       </div>
     </header>
 
@@ -32,30 +37,41 @@
       <!-- Section 1 -->
       <section class="section-text-container">
         <h1 class="section-h1">1</h1>
-        <h2 class="section-h2">Actionable insights</h2>
-        <h3 class="section-h3">Optimize your products, improve customer satisfaction and stay ahead of the competition with our product data analytics.</h3>
+        <div class="section-text-details">
+          <h2 class="section-h2">Actionable insights</h2>
+          <h3 class="section-h3">Optimize your products, improve customer satisfaction and stay ahead of the competition with our product data analytics.</h3>
+        </div>
+
       </section>
 
       <!-- Section 2 -->
       <section class="section-text-container">
         <h1 class="section-h1">2</h1>
-        <h2 class="section-h2">Data-driven decisions</h2>
-        <h3 class="section-h3">Make data-driven decisions with our product data analytics. Our AI-generated reports help you unlock insights hidden in your product data.</h3>
+
+        <div class="section-text-details">
+          <h2 class="section-h2">Data-driven decisions</h2>
+          <h3 class="section-h3">Make data-driven decisions with our product data analytics. Our AI-generated reports help you unlock insights hidden in your product data.</h3>
+        </div>
       </section>
 
       <!-- Section 3 -->
       <section class="section-text-container">
         <h1 class="section-h1">3</h1>
-        <h2 class="section-h2">Always affordable</h2>
-        <h3 class="section-h3">Always affordable pricing that scales with your business. Get top-quality product data analytics services without hidden costs or unexpected fees.</h3>
+
+        <div class="section-text-details">
+          <h2 class="section-h2">Always affordable</h2>
+          <h3 class="section-h3">Always affordable pricing that scales with your business. Get top-quality product data analytics services without hidden costs or unexpected fees.</h3>
+        </div>
       </section>
     </article>
   </main>
 
-  <aside class="text-white">
+  <aside class="text-white md:pt-28">
     <section class="aside-section-container">
       <div class="aside-subsection-container">
-        <img alt="headshot" src="./assets/images/image-founder.webp" class="relative -z-10" />
+        <div class="headshot-container">
+          <img alt="headshot" src="./assets/images/image-founder.webp" class="headshot" />
+        </div>
         <div class="aside-text-container">
           <h1 class="aside-h1">Be the first to test</h1>
           <p class="aside-text">Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a

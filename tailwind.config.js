@@ -38,7 +38,7 @@ module.exports = {
 
         // tablet presets
         'md-preset1': ['60px', {
-          lineHeight: '100%',
+          lineHeight: '120%',
           letterSpacing: '0px',
         }],
         'md-preset2': ['48px', {
